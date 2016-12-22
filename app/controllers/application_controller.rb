@@ -6,6 +6,10 @@ class ApplicationController < ActionController::Base
   end
   
   def goodbye
-    render html: "goodbye"
+    render html: "goodbye, world!"
+  end
+  
+  def madarin
+    render html: "谢谢！"
   end
 end
